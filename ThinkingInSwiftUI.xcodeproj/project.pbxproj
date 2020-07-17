@@ -13,6 +13,7 @@
 		7CBCA1BD24C1E97800EE787C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CBCA1BC24C1E97800EE787C /* Assets.xcassets */; };
 		7CBCA1C024C1E97800EE787C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CBCA1BF24C1E97800EE787C /* Preview Assets.xcassets */; };
 		7CBCA1C324C1E97800EE787C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CBCA1C124C1E97800EE787C /* LaunchScreen.storyboard */; };
+		7CBCA1CC24C1F28A00EE787C /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBCA1CB24C1F28A00EE787C /* Counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7CBCA1BF24C1E97800EE787C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CBCA1C224C1E97800EE787C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CBCA1C424C1E97800EE787C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CBCA1CB24C1F28A00EE787C /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		7CBCA1B524C1E97700EE787C /* ThinkingInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				7CBCA1CA24C1F27A00EE787C /* Chapter 1 */,
 				7CBCA1B624C1E97700EE787C /* AppDelegate.swift */,
 				7CBCA1B824C1E97700EE787C /* SceneDelegate.swift */,
 				7CBCA1BA24C1E97700EE787C /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				7CBCA1BF24C1E97800EE787C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CBCA1CA24C1F27A00EE787C /* Chapter 1 */ = {
+			isa = PBXGroup;
+			children = (
+				7CBCA1CB24C1F28A00EE787C /* Counter.swift */,
+			);
+			path = "Chapter 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CBCA1CC24C1F28A00EE787C /* Counter.swift in Sources */,
 				7CBCA1B724C1E97700EE787C /* AppDelegate.swift in Sources */,
 				7CBCA1B924C1E97700EE787C /* SceneDelegate.swift in Sources */,
 				7CBCA1BB24C1E97700EE787C /* ContentView.swift in Sources */,
